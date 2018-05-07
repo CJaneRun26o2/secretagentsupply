@@ -43,14 +43,21 @@ header {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
     display: block;
     width: 100%;
-    max-width: 960px;
+    max-width: 900.8px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    height: 400px;
+}
+
+.image-content {
+  display: block;
+    max-width: 960px;
+    margin: 0px auto;
     height: 213.75px;
 }
 
-#main-banner .image-content {
+.headline {
       display: block;
       align-content: left;
       background-color: black;
@@ -60,7 +67,7 @@ header {
       font-family: Helvetica;
       font-weight: bold;
       font-size: 30px;
-      width: 320px;
+      width: 20em;
       padding: 2em 3em;
       position: relative;
       top: 9em;
@@ -117,10 +124,22 @@ h2  {
   }
 
 .story {
-    display: block;
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0px 0px;
 }
 
+li {
+    display: list-item;
+}
+
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
 
 footer {display: flex;
     align-items: left;
