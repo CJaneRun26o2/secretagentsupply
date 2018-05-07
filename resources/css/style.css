@@ -40,6 +40,27 @@ header {
         font-weight: bold;
 }
 
+#main-banner {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+}
+
+.image-content {
+      display: flex;
+      align-content: left;
+      justify-content: center;
+      height: 300px;
+      margin-top: 15px;
+      color: white;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 30px;
+      }
+  }
 
 .content {
     display: flex;
@@ -47,7 +68,6 @@ header {
     margin: 0 auto 78px auto;
     padding-top: 116px;
   }
-
 
 
 h2  {
@@ -63,19 +83,7 @@ h2  {
   }
 
 
-.image-content {
-      display: flex;
-      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-      flex-direction: row;
-      justify-content: center;
-      height: 300px;
-      margin-top: 15px;
-      color: white;
-      font-family: Helvetica;
-      font-weight: bold;
-      font-size: 30px;
-      }
-  }
+
 
 
 .explodingpen {
