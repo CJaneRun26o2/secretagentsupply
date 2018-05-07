@@ -118,6 +118,7 @@ h2  {
 
 .story {
     display: block;
+    flex-direction: row;
 }
 
 
