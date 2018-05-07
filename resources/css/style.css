@@ -122,19 +122,6 @@ h2  {
 }
 
 
-.explodingpen {
-      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
-    }
-
-.cellularwatch  {
-      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
-    }
-
-.thermalglasses {
-      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
-    }
-
-
 footer {display: flex;
     align-items: left;
     justify-content: left;
