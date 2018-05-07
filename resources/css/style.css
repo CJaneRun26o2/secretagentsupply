@@ -47,14 +47,13 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 400px;
+    height: 25em;
 }
 
-.image-content {
-  display: block;
+.container {
     max-width: 960px;
-    margin: 0px auto;
-    height: 213.75px;
+    margin: 0 auto;
+    display: block;
 }
 
 .headline {
@@ -79,19 +78,17 @@ h1, h4 {
 
 h4 {
     font-size; 16px;
+    display: block;
 }
 
 h1 {
     font-size: 2em;
     line-height: 1.2em;
     margin: 0.25em 0;
+    display: block;
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    align-items: center;
-}
+
 
 nav {
     background-color: firebrick;
@@ -141,11 +138,6 @@ li {
     padding: 0.5em;
 }
 
-.container {
-    max-width: 960px;
-    margin: 0px auto;
-    display: block;
-}
 
 . story, .business-info {
     display: flex;
