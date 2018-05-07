@@ -13,7 +13,6 @@ body {
 header {
     display: flex;
     align-items: centert;
-    position: fixed;
     padding: 12px 0 12px 0.5em;
     width: 100%;
     height: 24px;
@@ -72,6 +71,16 @@ h1, h4 {
     font-weight: bold;
 }
 
+h4 {
+    font-size; 16px;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 0.25em 0;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -89,7 +98,9 @@ nav {
 
 .content {
     display: flex;
-    width: 1232 px;
+    flex-direction: column;
+    height: 100%
+    width: 100%
     margin: 0 auto 78px auto;
     padding-top: 116px;
   }
