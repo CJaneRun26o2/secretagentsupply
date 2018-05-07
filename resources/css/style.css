@@ -1,0 +1,96 @@
+html, body {height: 100%;
+}
+
+body {margin: 0;
+    display: block;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+  }
+
+
+header {display: flex;
+    align-items: center;
+    position: fixed;
+    z-indez: 1;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+.logo {display: flex;
+    align-items: left;
+    flex-grow: 1;
+    padding-left: 30px;
+  }
+
+.logo img {width: 70px;
+        height: 60px;
+        margin-right: 12px;
+  }
+
+.logo span {color: white;
+}
+
+
+.content {display: flex;
+    width: 1232 px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+  }
+
+
+
+h2  {display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    height: 100.8px;
+    width: 300px;
+  }
+
+
+.story {display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 565px;
+  }
+
+
+
+.image-content {
+      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  }
+
+
+.explodingpen {
+      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
+    }
+
+.cellularwatch  {
+      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
+    }
+
+.thermalglasses {
+      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
+    }
+
+
+footer {display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    height: 325 px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+  }
