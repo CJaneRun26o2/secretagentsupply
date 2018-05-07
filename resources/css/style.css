@@ -1,43 +1,49 @@
 html, body {height: 100%;
 }
 
-body {margin: 0;
+body {
+    margin: 0;
     display: block;
-    font-family: Georgia;
-    font-size: 17px;
-    color: black;
+    font-family: Helvetica;
+    font-size: 1px;
+    color: white;
   }
 
 
-header {display: flex;
-    align-items: center;
+header {
+    display: flex;
+    align-items: left;
     position: fixed;
     z-indez: 1;
     width: 100%;
-    height: 80px;
+    height: 24px;
     background-color: black;
     color: white;
-    font-family: Verdana;
-    font-size: 14px;
+    font-family: Helvetica;
+    font-size: 16px;
     font-weight: bold;
   }
 
-.logo {display: flex;
-    align-items: left;
-    flex-grow: 1;
-    padding-left: 30px;
+  .logo {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      padding-left: 30px;
+    }
+
+.logo img {
+        width: 1.5em;
+        height: 24px;
+        padding-right: 15px;;
   }
 
-.logo img {width: 70px;
-        height: 60px;
-        margin-right: 12px;
-  }
-
-.logo span {color: white;
+.logo span {
+        color: white;
 }
 
 
-.content {display: flex;
+.content {
+    display: flex;
     width: 1232 px;
     margin: 0 auto 78px auto;
     padding-top: 116px;
