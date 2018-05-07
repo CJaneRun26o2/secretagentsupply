@@ -26,18 +26,18 @@ header {
   .logo {
       display: flex;
       align-items: center;
-      flex-grow: 1;
       padding-left: 30px;
     }
 
 .logo img {
-        width: 1.5em;
+        width: 36.43px;
         height: 24px;
         padding-right: 15px;;
   }
 
 .logo span {
         color: white;
+        font-weight: bold;
 }
 
 
