@@ -141,6 +141,30 @@ li {
     padding: 0.5em;
 }
 
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+    display: block;
+}
+
+. story, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0px 0px;
+}
+
+.info {
+    width: 35%;
+}
+
+.info .title {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+
 footer {display: flex;
     align-items: left;
     justify-content: left;
