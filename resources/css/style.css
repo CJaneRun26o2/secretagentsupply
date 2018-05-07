@@ -43,10 +43,12 @@ header {
 #main-banner {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
     display: block;
+    width: 100%
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 25em;
+    height: 400px;
 }
 
 .image-content {
