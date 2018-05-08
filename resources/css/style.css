@@ -3,8 +3,7 @@ html, body {height: 100%;
 
 body {
     margin: 0;
-    display: block;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
     font-size: 1px;
     color: white;
   }
@@ -39,15 +38,12 @@ header {
         font-weight: bold;
 }
 
-#main-banner {
+.main-banner {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-    display: block;
-    width: 100%;
-    max-width: 900.8px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 25em;
+    height: 25rem;
 }
 
 .container {
@@ -65,19 +61,17 @@ header {
 }
 
 .headline {
-      display: block;
-      align-content: left;
-      background-color: black;
-      height: 149.75px;
-      margin-top: 15px;
-      color: white;
-      font-family: Helvetica;
-      font-weight: bold;
-      font-size: 30px;
-      width: 20em;
-      padding: 2em 3em;
-      position: relative;
-      top: 9em;
+    position: relative;
+    top: 9rem;
+    width: 20rem;
+    padding: 2rem 3rem;
+    background-color: black;
+  }
+
+  .headline .h1 {
+    margin: 0.25rem 0;
+    font-size: 2rem;
+    line-height: 1.2;
   }
 
   .business-info {
