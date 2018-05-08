@@ -14,7 +14,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 12px 0 12px 0.5em;
+    padding: 12px 0 12px 0.5rem;
     width: 100%;
     height: 24px;
     background-color: black;
@@ -70,31 +70,17 @@ header {
   .business-info {
     display: flex;
     justify-content: space-between;
-    margin: 3em 0 0 0;
+    margin: 3rem 0 0 0;
   }
 
 h1, h4 {
     font-weight: bold;
 }
 
-h4 {
-    font-size; 16px;
-    display: block;
-}
-
-h1 {
-    font-size: 2em;
-    line-height: 1.2em;
-    margin: 0.25em 0;
-    display: block;
-}
-
-
 nav {
     background-color: firebrick;
     color: white;
 }
-
 
 nav ul {
     display: flex;
@@ -103,38 +89,12 @@ nav ul {
     padding: 0.75rem 0;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    height: 100%
-    width: 100%
-    margin: 0 auto 78px auto;
-  }
-
-
-h2  {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: Georgia;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: normal;
-    height: 100.8px;
-    width: 300px;
-  }
-
-
-li {
-    display: list-item;
-}
-
 .description {
     display: block;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 .products, .business-info {
