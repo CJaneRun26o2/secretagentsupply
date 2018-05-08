@@ -1,11 +1,13 @@
 html, body {height: 100%;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
-    margin: 0;
     font-family: Helvetica, sans-serif;
-    font-size: 1px;
-    color: white;
+    line-height: 1.4;
   }
 
 
