@@ -147,7 +147,7 @@ li {
 }
 
 .product {
-    width: 35%;
+    width: 30%;
 }
 
 .product-image {
@@ -170,6 +170,16 @@ li {
     padding: 1em 2em;
 }
 
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
 
 footer {
     padding: 5rem 0;
