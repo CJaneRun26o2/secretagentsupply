@@ -56,6 +56,14 @@ header {
     display: block;
 }
 
+.secondgroup {
+    max-width: 960px;
+    margin: 0 auto;
+    display: block;
+    height: 254.4px;
+    width: 900.8px;
+}
+
 .headline {
       display: block;
       align-content: left;
@@ -70,6 +78,12 @@ header {
       padding: 2em 3em;
       position: relative;
       top: 9em;
+  }
+
+  .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0 0 0;
   }
 
 h1, h4 {
