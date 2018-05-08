@@ -23,27 +23,26 @@ header {
     font-size: 16px;
   }
 
-  .logo {
-      display: flex;
-      align-items: center;
-      padding-left: 30px;
-    }
-
-.logo img {
-        width: 36.43px;
-        height: 24px;
-        padding-right: 15px;;
+  .company {
+    background-color: black;
+    color: white;
   }
 
-.logo span {
-        color: white;
-        font-weight: bold;
-}
+.company .container {
+      display: flex;
+      align-items: center;
+      padding-left: .66rem 0 .66rem 0.5rem;
+    }
+
+.company img {
+        height: 1.5rem;
+        padding-right: 1rem;
+  }
 
 .main-banner {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     height: 25rem;
 }
@@ -51,15 +50,6 @@ header {
 .container {
     max-width: 960px;
     margin: 0 auto;
-    display: block;
-}
-
-.secondgroup {
-    max-width: 960px;
-    margin: 0 auto;
-    display: block;
-    height: 254.4px;
-    width: 900.8px;
 }
 
 .headline {
@@ -68,6 +58,7 @@ header {
     width: 20rem;
     padding: 2rem 3rem;
     background-color: black;
+    color: white;
   }
 
   .headline .h1 {
@@ -97,7 +88,6 @@ h1 {
     margin: 0.25em 0;
     display: block;
 }
-
 
 
 nav {
